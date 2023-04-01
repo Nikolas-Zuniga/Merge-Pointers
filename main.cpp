@@ -58,9 +58,9 @@ void merge(int *p, int *q) {
 int main()
 {
     prin();
-    int* p = A;
-    int* q = A + 4;
-    merge(p, q);
+    //int* p = A;
+    //int* q = A + 4;
+    merge(A, A+(sizeof(A)/sizeof(A[0]))/2);
     prin();
 
 }
